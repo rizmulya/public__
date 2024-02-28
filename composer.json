@@ -1,0 +1,22 @@
+{
+    "name": "rizmulya/protected-public",
+    "description": "Laravel public path but protected, only accessible by verified credentials and prevent asset access from the url.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "rizmulya",
+            "email": "riskymulya@protonmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/Public__.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
